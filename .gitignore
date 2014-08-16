@@ -1,0 +1,9 @@
+.DS_Store
+bin/
+obj/
+packages/
+
+*.suo
+*.userprefs
+*.user
+PresentationLib.iOS/Resources/build
