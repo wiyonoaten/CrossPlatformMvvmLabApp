@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlatMvvmLightLabApp.Android", "XPlatMvvmLightLabApp\XPlatMvvmLightLabApp.Android.csproj", "{E6C6753B-A993-4AAE-88C3-610A37AB177B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlatMvvmLabApp.Android", "XPlatMvvmLabApp.Android\XPlatMvvmLabApp.Android.csproj", "{E6C6753B-A993-4AAE-88C3-610A37AB177B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedPresentationLib.PCL", "SharedPresentationLib.PCL\SharedPresentationLib.PCL.csproj", "{18B3216D-F1C7-4788-85CC-2D7E12EA974B}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLib.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLib.iOS", "PresentationLib.iOS\PresentationLib.iOS.csproj", "{641EFB3B-A90B-4431-B950-01A99CA8C3D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlatMvvmLightLabApp.iOS", "XPlatMvvmLightLabApp.iOS\XPlatMvvmLightLabApp.iOS.csproj", "{8D193642-36AF-42B0-A839-4DA040D003D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlatMvvmLabApp.iOS", "XPlatMvvmLabApp.iOS\XPlatMvvmLabApp.iOS.csproj", "{8D193642-36AF-42B0-A839-4DA040D003D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIComponentsLib.Android", "UIComponentsLib.Android\UIComponentsLib.Android.csproj", "{E94A8A02-ACA6-4925-980B-16005FC7C6AE}"
 EndProject
@@ -21,11 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLib.XF", "Prese
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLib.XF.Android", "PresentationLib.XF.Android\PresentationLib.XF.Android.csproj", "{69473C46-3A43-4EEA-A744-86BD5A924BA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlatMvvmLightLabApp.XF.Android", "XPlatMvvmLightLabApp.XF.Android\XPlatMvvmLightLabApp.XF.Android.csproj", "{3D55B9CE-6E15-4960-B13C-E06F1398C110}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlatMvvmLabApp.XF.Android", "XPlatMvvmLabApp.XF.Android\XPlatMvvmLabApp.XF.Android.csproj", "{3D55B9CE-6E15-4960-B13C-E06F1398C110}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLib.XF.iOS", "PresentationLib.XF.iOS\PresentationLib.XF.iOS.csproj", "{24AFB0C5-B543-4D57-91E9-9048D6E655B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlatMvvmLightLabApp.XF.iOS", "XPlatMvvmLightLabApp.XF.iOS\XPlatMvvmLightLabApp.XF.iOS.csproj", "{6E3FC298-C421-4958-88A1-3D35B99CAC54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPlatMvvmLabApp.XF.iOS", "XPlatMvvmLabApp.XF.iOS\XPlatMvvmLabApp.XF.iOS.csproj", "{6E3FC298-C421-4958-88A1-3D35B99CAC54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +249,6 @@ Global
 		{E94A8A02-ACA6-4925-980B-16005FC7C6AE}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = XPlatMvvmLightLabApp.XF.iOS\XPlatMvvmLightLabApp.XF.iOS.csproj
+		StartupItem = XPlatMvvmLabApp.Android\XPlatMvvmLabApp.Android.csproj
 	EndGlobalSection
 EndGlobal

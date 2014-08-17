@@ -6,7 +6,7 @@ using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using PresentationLib;
 
-namespace XPlatMvvmLightLabApp
+namespace XPlatMvvmLabApp
 {
 	public class Application
 	{

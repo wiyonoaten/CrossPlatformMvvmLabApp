@@ -68,11 +68,11 @@ namespace PresentationLib
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public static int MvxBindingTagUnique = 2130968576;
+			// aapt resource value: 0x7f050000
+			public static int MvxBindingTagUnique = 2131034112;
 			
-			// aapt resource value: 0x7f040001
-			public static int myButton = 2130968577;
+			// aapt resource value: 0x7f050001
+			public static int myButton = 2131034113;
 			
 			static Id()
 			{
@@ -103,11 +103,17 @@ namespace PresentationLib
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050001
-			public static int hello = 2131034113;
+			// aapt resource value: 0x7f040002
+			public static int ApplicationName = 2130968578;
 			
-			// aapt resource value: 0x7f050000
-			public static int library_name = 2131034112;
+			// aapt resource value: 0x7f040001
+			public static int Hello = 2130968577;
+			
+			// aapt resource value: 0x7f040003
+			public static int hello = 2130968579;
+			
+			// aapt resource value: 0x7f040000
+			public static int library_name = 2130968576;
 			
 			static String()
 			{

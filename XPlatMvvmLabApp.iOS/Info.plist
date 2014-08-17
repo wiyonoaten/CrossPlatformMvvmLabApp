@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>XPlatMvvmLightLabAppXF</string>
+	<string>XPlatMvvmLabApp</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.wiyonoaten.XPlatMvvmLightLabAppXF</string>
+	<string>com.wiyonoaten.XPlatMvvmLabApp</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
