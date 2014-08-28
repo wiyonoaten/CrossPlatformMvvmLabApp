@@ -7,7 +7,7 @@
     <ProjectGuid>{52896B8A-CEEA-49CD-8B43-B0BA972008F7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>PresentationLib</RootNamespace>
-    <AssemblyName>PresentationLib.XamForms</AssemblyName>
+    <AssemblyName>PresentationLib.XF</AssemblyName>
     <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
