@@ -24,8 +24,45 @@ namespace XPlatMvvmLabApp
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+			global::GalaSoft.MvvmLight.Platform.Resource.String.ApplicationName = global::XPlatMvvmLabApp.Resource.String.ApplicationName;
+			global::GalaSoft.MvvmLight.Platform.Resource.String.Hello = global::XPlatMvvmLabApp.Resource.String.Hello;
+			global::PresentationLib.Resource.Attribute.MvxBind = global::XPlatMvvmLabApp.Resource.Attribute.MvxBind;
+			global::PresentationLib.Resource.Attribute.MvxDropDownItemTemplate = global::XPlatMvvmLabApp.Resource.Attribute.MvxDropDownItemTemplate;
+			global::PresentationLib.Resource.Attribute.MvxItemTemplate = global::XPlatMvvmLabApp.Resource.Attribute.MvxItemTemplate;
+			global::PresentationLib.Resource.Attribute.MvxSource = global::XPlatMvvmLabApp.Resource.Attribute.MvxSource;
+			global::PresentationLib.Resource.Drawable.Icon = global::XPlatMvvmLabApp.Resource.Drawable.Icon;
+			global::PresentationLib.Resource.Id.MvxBindingTagUnique = global::XPlatMvvmLabApp.Resource.Id.MvxBindingTagUnique;
+			global::PresentationLib.Resource.Id.myButton = global::XPlatMvvmLabApp.Resource.Id.myButton;
+			global::PresentationLib.Resource.Layout.Main = global::XPlatMvvmLabApp.Resource.Layout.Main;
+			global::PresentationLib.Resource.String.ApplicationName = global::XPlatMvvmLabApp.Resource.String.ApplicationName;
+			global::PresentationLib.Resource.String.Hello = global::XPlatMvvmLabApp.Resource.String.Hello;
+			global::PresentationLib.Resource.String.hello = global::XPlatMvvmLabApp.Resource.String.hello;
+			global::PresentationLib.Resource.String.library_name = global::XPlatMvvmLabApp.Resource.String.library_name;
+			global::PresentationLib.Resource.Styleable.MvxBinding = global::XPlatMvvmLabApp.Resource.Styleable.MvxBinding;
+			global::PresentationLib.Resource.Styleable.MvxBinding_MvxBind = global::XPlatMvvmLabApp.Resource.Styleable.MvxBinding_MvxBind;
+			global::PresentationLib.Resource.Styleable.MvxImageView = global::XPlatMvvmLabApp.Resource.Styleable.MvxImageView;
+			global::PresentationLib.Resource.Styleable.MvxImageView_MvxSource = global::XPlatMvvmLabApp.Resource.Styleable.MvxImageView_MvxSource;
+			global::PresentationLib.Resource.Styleable.MvxListView = global::XPlatMvvmLabApp.Resource.Styleable.MvxListView;
+			global::PresentationLib.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::XPlatMvvmLabApp.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::PresentationLib.Resource.Styleable.MvxListView_MvxItemTemplate = global::XPlatMvvmLabApp.Resource.Styleable.MvxListView_MvxItemTemplate;
+		}
+		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f010000
+			public const int MvxBind = 2130771968;
+			
+			// aapt resource value: 0x7f010002
+			public const int MvxDropDownItemTemplate = 2130771970;
+			
+			// aapt resource value: 0x7f010001
+			public const int MvxItemTemplate = 2130771969;
+			
+			// aapt resource value: 0x7f010003
+			public const int MvxSource = 2130771971;
 			
 			static Attribute()
 			{
@@ -41,7 +78,10 @@ namespace XPlatMvvmLabApp
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int monoandroidsplash = 2130837504;
+			public const int Icon = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int monoandroidsplash = 2130837505;
 			
 			static Drawable()
 			{
@@ -53,11 +93,55 @@ namespace XPlatMvvmLabApp
 			}
 		}
 		
-		public partial class String
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int MvxBindingTagUnique = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int myButton = 2131034113;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
+		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int library_name = 2130903040;
+			public const int Main = 2130903040;
+			
+			static Layout()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Layout()
+			{
+			}
+		}
+		
+		public partial class String
+		{
+			
+			// aapt resource value: 0x7f040003
+			public const int ApplicationName = 2130968579;
+			
+			// aapt resource value: 0x7f040002
+			public const int Hello = 2130968578;
+			
+			// aapt resource value: 0x7f040001
+			public const int hello = 2130968577;
+			
+			// aapt resource value: 0x7f040000
+			public const int library_name = 2130968576;
 			
 			static String()
 			{
@@ -72,8 +156,8 @@ namespace XPlatMvvmLabApp
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int Mono_Android_Theme_Splash = 2130968576;
+			// aapt resource value: 0x7f060000
+			public const int Mono_Android_Theme_Splash = 2131099648;
 			
 			static Style()
 			{
@@ -81,6 +165,44 @@ namespace XPlatMvvmLabApp
 			}
 			
 			private Style()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] MvxBinding = new int[]
+			{
+					2130771968};
+			
+			// aapt resource value: 0
+			public const int MvxBinding_MvxBind = 0;
+			
+			public static int[] MvxImageView = new int[]
+			{
+					2130771971};
+			
+			// aapt resource value: 0
+			public const int MvxImageView_MvxSource = 0;
+			
+			public static int[] MvxListView = new int[]
+			{
+					2130771969,
+					2130771970};
+			
+			// aapt resource value: 1
+			public const int MvxListView_MvxDropDownItemTemplate = 1;
+			
+			// aapt resource value: 0
+			public const int MvxListView_MvxItemTemplate = 0;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}
