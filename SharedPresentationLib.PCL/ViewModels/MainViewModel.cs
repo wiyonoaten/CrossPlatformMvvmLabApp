@@ -55,13 +55,16 @@ namespace SharedPresentationLib
 
 		private void ExecuteGo()
 		{
-			++m_count;
+			if (++m_count == 10)
+			{
+				this.GoCommand.RaiseCanExecuteChanged();
+			}
 			updateTitle();
 		}
 
 		private bool CanExecuteGo()
 		{
-			return true;
+			return (m_count < 10);
 		}
 
 		#endregion

@@ -26,7 +26,7 @@ namespace PresentationLib.Views
 
 		protected override int GetLayoutResourceId()
 		{
-			return Resource.Layout.Main;
+			return Resource.Layout.main;
 		}
 
 #if _USE_MVVMLIGHT_BINDING

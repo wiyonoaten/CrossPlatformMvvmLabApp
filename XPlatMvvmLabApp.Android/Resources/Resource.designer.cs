@@ -35,9 +35,7 @@ namespace XPlatMvvmLabApp
 			global::PresentationLib.Resource.Drawable.Icon = global::XPlatMvvmLabApp.Resource.Drawable.Icon;
 			global::PresentationLib.Resource.Id.MvxBindingTagUnique = global::XPlatMvvmLabApp.Resource.Id.MvxBindingTagUnique;
 			global::PresentationLib.Resource.Id.myButton = global::XPlatMvvmLabApp.Resource.Id.myButton;
-			global::PresentationLib.Resource.Layout.Main = global::XPlatMvvmLabApp.Resource.Layout.Main;
-			global::PresentationLib.Resource.String.ApplicationName = global::XPlatMvvmLabApp.Resource.String.ApplicationName;
-			global::PresentationLib.Resource.String.Hello = global::XPlatMvvmLabApp.Resource.String.Hello;
+			global::PresentationLib.Resource.Layout.main = global::XPlatMvvmLabApp.Resource.Layout.main;
 			global::PresentationLib.Resource.String.hello = global::XPlatMvvmLabApp.Resource.String.hello;
 			global::PresentationLib.Resource.String.library_name = global::XPlatMvvmLabApp.Resource.String.library_name;
 			global::PresentationLib.Resource.Styleable.MvxBinding = global::XPlatMvvmLabApp.Resource.Styleable.MvxBinding;
@@ -116,7 +114,7 @@ namespace XPlatMvvmLabApp
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int main = 2130903040;
 			
 			static Layout()
 			{

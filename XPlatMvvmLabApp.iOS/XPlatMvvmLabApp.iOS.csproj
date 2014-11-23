@@ -8,7 +8,6 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>XPlatMvvmLabApp</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>XPlatMvvmLabAppiOS</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
