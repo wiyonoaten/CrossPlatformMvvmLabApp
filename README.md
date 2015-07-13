@@ -1,5 +1,4 @@
-XPlatMvvmLabApp
-===============
+# XPlatMvvmLabApp
 
 The ultimate showroom for demonstrating cross-platform native app development using MVVM technique and Xamarin technologies.
 
@@ -21,3 +20,19 @@ This project showcases following different types of apps:<br/>
 Shared C# business logic + Shared C# view models + Shared Xamarin.Forms-based C# ui code (<b>Android native app + iOS native app + WinPhone native app</b>)<br/>
 </li>
 </ol>
+
+## License
+
+Copyright 2014-2015 Wiyono Aten
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
