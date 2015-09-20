@@ -17,7 +17,9 @@ This project showcases following different types of apps:<br/>
 </ul>
 </li>
 <li> Native apps (single UI code)<br />
-Shared C# business logic + Shared C# view models + Shared Xamarin.Forms-based C# ui code (<b>Android native app + iOS native app + WinPhone native app</b>)<br/>
+<ul>
+<li>Shared C# business logic + Shared C# view models + Shared Xamarin.Forms-based C# ui code (<b>Android native app + iOS native app + WinPhone native app</b>)<br/></li>
+</ul>
 </li>
 </ol>
 
