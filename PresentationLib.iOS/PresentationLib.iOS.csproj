@@ -79,11 +79,6 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
-    <BundleResource Include="Resources\build\PresentationLib.iOS.build\MonoTouch-iphonesimulator\PresentationLib.iOS.build\PresentationLib.iOS-all-target-headers.hmap" />
-    <BundleResource Include="Resources\build\PresentationLib.iOS.build\MonoTouch-iphonesimulator\PresentationLib.iOS.build\PresentationLib.iOS-generated-files.hmap" />
-    <BundleResource Include="Resources\build\PresentationLib.iOS.build\MonoTouch-iphonesimulator\PresentationLib.iOS.build\PresentationLib.iOS-own-target-headers.hmap" />
-    <BundleResource Include="Resources\build\PresentationLib.iOS.build\MonoTouch-iphonesimulator\PresentationLib.iOS.build\PresentationLib.iOS-project-headers.hmap" />
-    <BundleResource Include="Resources\build\PresentationLib.iOS.build\MonoTouch-iphonesimulator\PresentationLib.iOS.build\PresentationLib.iOS.hmap" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SharedPresentationLib.PCL\SharedPresentationLib.PCL.csproj">
